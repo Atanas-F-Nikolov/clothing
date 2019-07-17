@@ -2,7 +2,7 @@
   position: relative;
   min-width: 30%;
   height: 240px;
-  flex: 1 1 auto;
+  flex: 1 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,11 +28,11 @@
   }
 
   &:first-child {
-    margin-right: 7.5px;
+    //margin-right: 7.5px;
   }
 
   &:last-child {
-    margin-left: 7.5px;
+    //margin-left: 7.5px;
   }
 
   .background-image {
